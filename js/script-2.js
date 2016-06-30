@@ -140,7 +140,6 @@ function gradeHenry() {
         window.console.log("Henry A");
     }
 }
-
 function gradeTabitha() {
     if (stuTabitha <=59){
         window.console.log("Tabitha F");
@@ -168,41 +167,26 @@ function gradeLucy() {
         window.console.log("Lucy A");
     }
 }
-
 gradeUrsula();
 gradePaul();
 gradeHenry();
 gradeTabitha();
 gradeLucy();
 */
-
     //14	Create a JavaScript for loop that iterates from 1 to 15. Each iteration should check if the current number is odd or even, and display a message within the console window.
 var listForLoop = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
-for (var x in listForLoop) {
-	window.console.log(evenOrOdd(listForLoop[x]));
-}
-Number.isFinite(parseFloat(n));
+    for (var x in listForLoop) {	    
+        window.console.log(listForLoop[x]);
+    }
+Number.isFinite(parseFloat(x));
 function evenOrOdd() {
-    if (n % 2 == 0) {
+    if (x % 2 == 0) {
         window.console.log("even");
-    } else if (Math.abs(n % 2) == 1) {
+    } else if (Math.abs(x % 2) == 1) {
         window.console.log("odd");
     }
 }
-/*
-function isEven(n) {
-   return n % 2 == 0;
-}
-function isOdd(n) {
-   return Math.abs(n % 2) == 1;
-}
-*/
-
-
-
-
-
-
+//window.console.log(evenOrOdd(6));
 
 
 
